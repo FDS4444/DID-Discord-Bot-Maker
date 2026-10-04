@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+anthropic
+requests
+discord.py>=2.3
+cryptography
