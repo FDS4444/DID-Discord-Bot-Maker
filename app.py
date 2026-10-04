@@ -363,7 +363,7 @@ LANDING = """<!doctype html><html lang="ko"><head><meta charset="utf-8">
 @app.get("/", response_class=HTMLResponse)
 def home(): return LANDING
 
-PANEL = """<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+PANEL = r"""<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex"><title>DID 패널</title>
 <style>body{font-family:system-ui,sans-serif;background:#1e1f22;color:#eee;max-width:900px;margin:0 auto;padding:16px}
 input,textarea,button,select{font:inherit;padding:8px;margin:4px 0;border-radius:6px;border:1px solid #444;background:#2b2d31;color:#eee;width:100%;box-sizing:border-box}
